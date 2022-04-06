@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: black;
+    width: 100%;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: silver;
+    position: fixed;
+    float: left;
+    text-align: left;
+    border: gold;
+    box-shadow: 8px 8px 8px gold;
+    top: 0;
+    left: 0;
+}
+
+a{
+    color: black;
+    text-decoration: gold;
+    transition: 0.05s;
+    margin: 0 10px;
+    line-height: 60px;
+    font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+a:hover{
+    text-decoration: gold;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.pgs{
+    color: black;
+    text-decoration: gold;
+    transition: 0.05s;
+    margin: 0 10px;
+    line-height: 60px;
+}
+
+h1{
+    position: center;
+    color: gold;
+    border-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: silver;
+    width: 275px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img:hover{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
+
+.title{
+    font-size: 25px;
+    left: 0;
+}
+
+p{
+    font-size: 25px;
+    align-items: center;
+    color: silver;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
